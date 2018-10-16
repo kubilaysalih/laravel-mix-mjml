@@ -1,4 +1,4 @@
-const mjml2html = require('mjml');
+const mjml2html = require('mjml').default;
 const glob = require('glob');
 const fs = require('fs');
 
